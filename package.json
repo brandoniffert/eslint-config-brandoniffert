@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brandoniffert",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ESLint and Prettier Config from Brandon Iffert",
   "main": "index.js",
   "repository": "git@github.com/brandoniffert/eslint-config-brandoniffert.git",
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/brandoniffert/eslint-config-brandoniffert#readme",
   "peerDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.1.0",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-import": "^2.18.0",
@@ -26,11 +26,11 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-react-hooks": "^2.3.0",
-    "prettier": "^1.16.4"
+    "prettier": "^1.19.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.1.0",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-import": "^2.18.0",
@@ -38,7 +38,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-react-hooks": "^2.3.0",
-    "prettier": "^1.16.4"
+    "prettier": "^1.19.1"
   },
   "scripts": {
     "lint": "eslint .",
