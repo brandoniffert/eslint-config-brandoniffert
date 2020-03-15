@@ -15,19 +15,7 @@ or for yarn
 npx install-peerdeps --dev --yarn eslint-config-brandoniffert
 ```
 
-## Global Install
-
-```
-npx install-peerdeps --global eslint-config-brandoniffert
-```
-or for yarn
-```
-npx install-peerdeps --global --yarn eslint-config-brandoniffert
-```
-
-## Usage
-
-Whether you installed locally or globally, you need to extend this config in you local/global `.eslintrc` file
+3. Extend this config in your `.eslintrc` file
 
 ```json
 {
