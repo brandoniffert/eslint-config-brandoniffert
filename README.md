@@ -2,9 +2,9 @@
 
 ## Local / Per Project Install
 
-1. If you don't already have a `package.json` file, create one with `npm init` or `yarn init`.
+1. If you don't already have a `package.json` file, create one with `npm init` or `yarn init`
 
-2. Then we need to install everything needed by the config:
+2. In the same directory, run
 
 ```
 npx install-peerdeps --dev eslint-config-brandoniffert
@@ -15,9 +15,19 @@ or for yarn
 npx install-peerdeps --dev --yarn eslint-config-brandoniffert
 ```
 
-3. You can see in your package.json there are now a big list of devDependencies.
+## Global Install
 
-4. Create a `.eslintrc` file in the root of your project's directory (it should live where package.json does). Your `.eslintrc` file should look like this:
+```
+npx install-peerdeps --global eslint-config-brandoniffert
+```
+or for yarn
+```
+npx install-peerdeps --global --yarn eslint-config-brandoniffert
+```
+
+## Usage
+
+Whether you installed locally or globally, you need to extend this config in you local/global `.eslintrc` file
 
 ```json
 {
